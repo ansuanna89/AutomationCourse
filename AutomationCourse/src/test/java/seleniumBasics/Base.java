@@ -17,7 +17,7 @@ public class Base {
 	
 	public void driverClose() {
 		//driver.close();
-		//driver.quit();
+		driver.quit();
 	}
 	
 	public static void main(String[] args) {
