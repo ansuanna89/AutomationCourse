@@ -34,23 +34,23 @@ public void afterMethod() {			//It executes after the @Test method eg:Browser cl
 
 
 @BeforeClass
-public void beforeClass() {				
+public void beforeClass() {				//It executes after the @BeforeMethod 
 	System.out.println("This is a before Class ");
 }
 
 @AfterClass
-public void afterClass() {			
+public void afterClass() {			//It executes after the @AfterMethod 
 	System.out.println("This is after Class");
 }
 
 
 @BeforeTest
-public void beforeTest() {				//It execute before the execution of @beforeMethod
+public void beforeTest() {				//It execute before the execution of @beforeClass
 	System.out.println("This is a before Test ");
 }
 
 @AfterTest
-public void afterTest() {			//It executes after the @AfterMethod 
+public void afterTest() {			//It executes after the @AfterClass
 	System.out.println("This is after Test");
 }
 
